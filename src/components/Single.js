@@ -11,7 +11,6 @@ class Single extends Component {
 
     return (
       <div className='single-photo'>
-        i'm a single component
         <Image url={dt.image_url} name={dt.name}/>
         <p className='image-description'>{dt.description}</p>
       </div>

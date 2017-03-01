@@ -8,7 +8,7 @@ class Main extends Component {
     
     fetch(url)
       .then(response => response.json())
-      .then(responseJson => {console.log();getData([...responseJson.photos])} )
+      .then(responseJson => {console.log();getData(responseJson.photos)} )
       .catch( error => console.error(error));
   }
     
